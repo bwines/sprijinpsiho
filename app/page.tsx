@@ -184,6 +184,12 @@ export default function Home() {
           </span>
           <span className="brand-word">sprijin<span>psiho</span></span>
         </a>
+        <div className="footer-membership">
+          <span className="membership-label">Membru al</span>
+          <a href="https://www.copsi.ro/" target="_blank" rel="noreferrer">
+            Colegiului Psihologilor din România <span aria-hidden="true">↗</span>
+          </a>
+        </div>
         <span>© {new Date().getFullYear()} SprijinPsiho. Toate drepturile rezervate.</span>
         <a href={`tel:${phone}`}>{phoneDisplay}</a>
       </footer>
