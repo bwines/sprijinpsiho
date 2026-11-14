@@ -69,10 +69,10 @@ export default function Home() {
       <section className="hero" id="acasa">
         <div className="hero-copy">
           <p className="eyebrow"><span className="eyebrow-line" /> CABINET DE PSIHOLOGIE</p>
-          <h1>Un spațiu<br />pentru <em>tine.</em></h1>
+          <h1>Un pas mai aproape<br />de <em>tine.</em></h1>
           <p className="hero-lead">
             Uneori, primul pas spre echilibru este să vorbești cu cineva.
-            Aici găsești un loc în care să fii ascultat, înțeles și sprijinit.
+            Să fii ascultat, înțeles și însoțit în ritmul tău.
           </p>
           <div className="hero-actions">
             <a className="button button-dark" href={`tel:${phone}`}>Programează o întâlnire <span>↗</span></a>
