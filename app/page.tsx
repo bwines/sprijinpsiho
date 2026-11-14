@@ -63,7 +63,12 @@ export default function Home() {
           <a href="#contact">Contact</a>
         </nav>
 
-        <a className="header-cta" href={`tel:${phone}`}>Sună pentru programare <span>↗</span></a>
+        <div className="header-right">
+          <a className="header-copsi" href="https://www.copsi.ro/" target="_blank" rel="noreferrer" aria-label="Membru al Colegiului Psihologilor din România">
+            <img src="/copsi-logo.webp" alt="Colegiul Psihologilor din România" />
+          </a>
+          <a className="header-cta" href={`tel:${phone}`}>Sună pentru programare <span>↗</span></a>
+        </div>
       </header>
 
       <section className="hero" id="acasa">
@@ -185,6 +190,9 @@ export default function Home() {
           <span className="brand-word">sprijin<span>psiho</span></span>
         </a>
         <div className="footer-membership">
+          <a className="footer-copsi-logo" href="https://www.copsi.ro/" target="_blank" rel="noreferrer" aria-label="Colegiul Psihologilor din România">
+            <img src="/copsi-logo.webp" alt="Colegiul Psihologilor din România" />
+          </a>
           <span className="membership-label">Membru al</span>
           <a href="https://www.copsi.ro/" target="_blank" rel="noreferrer">
             Colegiului Psihologilor din România <span aria-hidden="true">↗</span>
