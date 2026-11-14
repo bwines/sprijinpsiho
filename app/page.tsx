@@ -188,10 +188,12 @@ export default function Home() {
           <a className="footer-copsi-logo" href="https://www.copsi.ro/" target="_blank" rel="noreferrer" aria-label="Colegiul Psihologilor din România">
             <img src="/copsi-logo.webp" alt="Colegiul Psihologilor din România" />
           </a>
-          <span className="membership-label">Membru al</span>
-          <a href="https://www.copsi.ro/" target="_blank" rel="noreferrer">
-            Colegiului Psihologilor din România <span aria-hidden="true">↗</span>
-          </a>
+          <div className="footer-membership-text">
+            <span className="membership-label">Membru al</span>
+            <a href="https://www.copsi.ro/" target="_blank" rel="noreferrer">
+              Colegiului Psihologilor din România <span aria-hidden="true">↗</span>
+            </a>
+          </div>
         </div>
         <span>© {new Date().getFullYear()} SprijinPsiho. Toate drepturile rezervate.</span>
         <a href={`tel:${phone}`}>{phoneDisplay}</a>
